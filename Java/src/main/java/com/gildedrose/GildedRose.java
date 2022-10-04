@@ -32,7 +32,7 @@ class GildedRose {
                 return quality;
             }
         },
-        BACKSTAGE("Backstage passes to a TAFKAL80ETC concert") {
+        BACKSTAGE_PASS("Backstage passes to a TAFKAL80ETC concert") {
             @Override
             protected int getAddition(int sellIn) {
                 if (sellIn < 5) return 3;
